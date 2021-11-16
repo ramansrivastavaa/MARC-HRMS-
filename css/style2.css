@@ -1,0 +1,81 @@
+*{
+	 margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: montserrat;
+  box-sizing: border-box;
+}
+
+
+.admenu{
+	height:100%;
+	width:25%;
+	background-color: rgba(255, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.panal{
+	height:100%;
+	width:75%;
+	background-color:blue;
+	 position: fixed;
+  top: 0;
+  left:25%;
+}
+.row1{
+	height:80px;
+	width:100%;
+	background-color:green;
+	
+}
+.box1{
+	height:200px;
+	width:20%;
+	background-color:yellow;
+	float:left;
+	margin-top:200px;
+	margin-left:55px;
+}
+.box2{
+	
+	height:200px;
+	width:20%;
+	background-color:yellow;
+	float:left;
+	margin-top:100px;
+	margin-left:55px;
+}
+.icon{
+	width:80px;
+	height:80px;
+	background-color:white;
+	border-radius:40px;
+	position:fixed;
+	top:40;
+	left:150;
+}
+.name{
+	position:fixed;
+	top:150;
+	left:120;
+}
+#logbtn{
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height:50px;
+  border: none;
+  border-radius:50px;
+  padding-left:30%;
+background:linear-gradient(to right top, #be0f10, #dc003c, #f1006b, #f800a3, #eb12e0);
+  background-size: 140%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#logbtn:hover{
+  background-position: right;
+}
